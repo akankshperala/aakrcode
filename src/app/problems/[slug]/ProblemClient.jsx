@@ -52,6 +52,7 @@ export default function ProblemClient({ slug }) {
       {/* Language Selector */}
       <div className="mb-4">
         <label htmlFor="language" className="block mb-2 font-medium">Language:</label>
+
         <select
           id="language"
           value={language}
@@ -61,7 +62,10 @@ export default function ProblemClient({ slug }) {
           <option value="javascript">JavaScript</option>
           <option value="python">Python</option>
           <option value="java">Java</option>
+          <option value="cpp">C++</option>
+          <option value="csharp">C#</option>
         </select>
+
       </div>
 
       {/* Code Editor */}
